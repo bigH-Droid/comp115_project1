@@ -1,12 +1,11 @@
-
 import turtle
 import random
 
-# Set up 
+# Set up the screen
 screen = turtle.Screen()
 screen.setup(1000, 700)
 screen.bgcolor("#101727")
-screen.title("A Deadlock")
+screen.title("Deadlock - New York City")
 screen.tracer(0)
 
 t = turtle.Turtle()
@@ -143,7 +142,7 @@ rectangle(-95, 150, 250, 65, "#1a2637")
 rectangle(-65, 215, 190, 45, "#202d40")
 rectangle(-35, 260, 130, 35, "#29364a")
 
-# crown
+# Crown
 rectangle(-15, 295, 90, 12, "#526176")
 rectangle(5, 307, 50, 22, "#364458")
 
@@ -174,33 +173,33 @@ windows(-25, 268, 110, 20, 24, 24)
 rectangle(-55, -250, 170, 70, "#080e18")
 rectangle(-35, -250, 130, 55, "#182536")
 
-# entrance doors
+# Entrance doors
 rectangle(-20, -250, 45, 55, "#35465b")
 rectangle(35, -250, 45, 55, "#35465b")
 rectangle(90, -250, 25, 55, "#26384c")
 
-# Entrance columns
+# columns on entrance
 for x in [-65, -40, 110, 135]:
     rectangle(x, -250, 5, 70, "#586579")
 
-# the entrance lights
+# entrance lights
 rectangle(-65, -200, 7, 12, "#f5c76b")
 rectangle(165, -200, 7, 12, "#f5c76b")
 
-# the sign on the front
+# decorative sign
 rectangle(-35, 95, 130, 30, "#0a111d")
 line(-35, 95, 95, 95, "#8b795c", 2)
 line(-35, 125, 95, 125, "#8b795c", 2)
 
 
-# street lights
+# lights in the street
 for x in [-420, -285, 260, 410]:
     rectangle(x, -285, 5, 45, "#4b5666")
     rectangle(x - 12, -243, 28, 5, "#69788b")
     rectangle(x - 8, -238, 18, 8, "#f3c86b")
 
 
-# the road markings
+# Road marks
 for x in range(-450, 450, 90):
     rectangle(x, -300, 40, 3, "#68717d")
 
