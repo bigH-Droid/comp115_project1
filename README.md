@@ -31,7 +31,7 @@ The screenshot of the drawing can be found on the sidebar, in the main repositor
 1. Download or clone the raw code.
 2. Open the project file in VS Code or another Python reader.
 3. Make sure Python is installed.
-4. Run the program:
+4. Run the program.
 5. A Turtle graphics window will open showing the New York skyline.
 6. Close the window to end the program.
 
